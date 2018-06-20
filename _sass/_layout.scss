@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Leafy' ;
+  src: url('fonts/leafy.woff') format('woff');
+  src: url('fonts/leafy.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 footer {
   color: #ffffff;		
   text-align: center;
@@ -11,7 +20,7 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
-  background-image:url("523425.jpg");
+  background-image:url("IMG_302832.jpg");
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -22,20 +31,23 @@ h2,
 h3 {
 	font-weight: 600;
 	color: #ffffff;
-	font-family: $heading-font;
 	line-height: 1.5;
 }
 h1 {
-	color: $main;
-	font-size: 2.5em;
+	color: #ffffff;
+	font-size: 11em;
+  font-family: Leafy;
 	a,
 	a:visited {
 	text-decoration: none;
-	color: $main;
+	color: #ffffff;
 	}
 }
 h2 {
 	font-size: 2em;
+}
+h3 {
+  color: #C0C0C0
 }
 a,
 a:visited {
@@ -44,8 +56,8 @@ a:visited {
 	font-weight: bold;
 }
 a:hover {
-	color: $link-hover-color;
-	text-decoration: underline;
+	color: $link-color;
+	/*text-decoration: underline;*/
 }
 header {
 	padding: 0px 15px;
@@ -75,10 +87,10 @@ aside {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #fff;
+	background: rgba(0,0,0,0.9);
 	width: 100%;
 	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
+	/*border-bottom: 1px solid lighten($light, 30%); */
 	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
 	nav {
 		float: left;
