@@ -1,10 +1,7 @@
 # Site Settings
-
-title: New Website
+title: Counting Stars
 url: "http://sauravprakash98.github.io"
-
 # Build Settings
-
 sass:
   sass_dir: _sass
 include: ['_pages'] 
